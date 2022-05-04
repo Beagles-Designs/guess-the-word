@@ -141,7 +141,7 @@ const countGuesses = function(guess){
         remainingGuessesP.innerHTML = `Only <span>1 guess</span> remaining!`;
     }
     else if (remainingGuesses === 0) {
-        messages.innerText = `Sorry! You've run out of guesses. Game Over.`;
+        messages.innerText = `Sorry! You've run out of guesses. The correct word was ${word}. Game Over.`;
         startOver();
     };
 };
