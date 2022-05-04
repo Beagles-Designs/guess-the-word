@@ -175,5 +175,6 @@ playAgainButton.addEventListener("click", function () {
   remainingGuessesP.classList.remove("hide");
   guessedLettersUL.classList.remove("hide");
   messages.innerText = "Going again! Here's a new Word."
+  guessedLettersUL.innerText="";
   getWord();
 });
